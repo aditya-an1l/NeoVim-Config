@@ -60,7 +60,7 @@ return {
       markdownlint = {
         command = "C:\\Users\\nvim\\nvim-conform\\markdownlint.cmd",
       },
-      markdown_toc = {
+      mtoc = {
         command = "C:\\Users\\nvim\\nvim-conform\\markdown-toc.cmd",
       },
     },
