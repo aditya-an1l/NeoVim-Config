@@ -37,6 +37,9 @@ return {
 
   opts = {
     formatters = {
+      -- In windows, I have space in my User Name space, and this thing cannot escape the space for some reasong.
+      -- I put the cmd files into C:\\Users file, and manually setting the path
+      -- changed the path of the conform cmd.
       stylua = {
         command = "C:\\Users\\nvim\\nvim-conform\\stylua.cmd",
       },
@@ -59,9 +62,6 @@ return {
 
       markdownlint = {
         command = "C:\\Users\\nvim\\nvim-conform\\markdownlint.cmd",
-      },
-      mtoc = {
-        command = "C:\\Users\\nvim\\nvim-conform\\markdown-toc.cmd",
       },
     },
   },
