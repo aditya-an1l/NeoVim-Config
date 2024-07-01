@@ -3,7 +3,7 @@ return {
   opts = function()
     local mason = require("mason-lspconfig")
     mason.setup({
-      automatic_installation = { exclude = { "r-languageserver" } },
+      automatic_installation = { exclude = { "r-languageserver", "julia" } },
     })
   end,
 }
