@@ -13,3 +13,11 @@ vim.keymap.set("n", "lkj", "i", { desc = "Go to Insert Mode" })
 vim.keymap.set("n", "j", "jzz", { desc = "Cursor at the centre of the screen while pressing j", remap = true })
 
 vim.keymap.set("n", "k", "kzz", { desc = "Cursor at the centre of the screen while pressing k", remap = true })
+
+vim.keymap.set("i", "<Space>e", function()
+  require("neo-tree.command").execute({
+    toggle = true,
+    source = "filesystem",
+    position = "right",
+  })
+end, { desc = "NeoTree" })
