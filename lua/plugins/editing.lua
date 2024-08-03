@@ -12,5 +12,4 @@ return {
       "nvim-lua/plenary.nvim",
     },
   },
-  { "dapt4/vim-autoSurround" },
 }
