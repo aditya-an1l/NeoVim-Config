@@ -17,7 +17,7 @@ vim.keymap.set("n", "U", "<C-r>", { desc = "Redo" })
 vim.keymap.set("n", "j", "jzz", { desc = "Cursor at the centre of the screen while pressing j" })
 vim.keymap.set("n", "k", "kzz", { desc = "Cursor at the centre of the screen while pressing k" })
 
-vim.keymap.set("i", "<Space>e", function()
+vim.keymap.set("n", "<Space>e", function()
   require("neo-tree.command").execute({
     toggle = true,
     source = "filesystem",
