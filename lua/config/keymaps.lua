@@ -11,6 +11,8 @@ vim.keymap.set("i", "lkj", "<Esc>", { desc = "Go to Insert Mode #1" })
 vim.keymap.set("n", "lkj", "i", { desc = "Go to Insert Mode #1" })
 vim.keymap.set("i", "KJ", "<Esc>", { desc = "Go to Insert Mode #2" })
 vim.keymap.set("n", "KJ", "i", { desc = "Go to Insert Mode #2" })
+vim.keymap.set("i", "LKJ", "<Esc>", { desc = "Go to Insert Mode #1" })
+vim.keymap.set("n", "LKJ", "i", { desc = "Go to Insert Mode #1" })
 
 vim.keymap.set("n", "U", "<C-r>", { desc = "Redo" })
 
