@@ -1,8 +1,8 @@
 return {
   "stevearc/conform.nvim",
   dependencies = { "mason.nvim" },
-  lazy = true,
   cmd = "ConformInfo",
+  enable = false,
   keys = {
     {
       "<leader>cF",
@@ -48,12 +48,23 @@ return {
         command = "C:\\Users\\nvim\\nvim-conform\\prettier.cmd",
       },
 
-      black = {
-        command = "C:\\Users\\nvim\\nvim-conform\\black.cmd",
+      prettierd = {
+        command = "C:\\Users\\nvim\\nvim-conform\\prettierd.cmd",
       },
-
       shfmt = {
         command = "C:\\Users\\nvim\\nvim-conform\\shfmt.cmd",
+      },
+
+      biome = {
+        command = "C:\\Users\\nvim\\nvim-conform\\biome.cmd",
+      },
+
+      ruff = {
+        command = "C:\\Users\\nvim\\nvim-conform\\ruff.cmd",
+      },
+
+      clangformat = {
+        command = "C:\\Users\\nvim\\nvim-conform\\clang-format.cmd",
       },
 
       markdownlint = {
