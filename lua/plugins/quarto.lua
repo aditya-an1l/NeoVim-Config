@@ -5,6 +5,7 @@ return {
     "quarto-dev/quarto-nvim",
     ft = { "quarto" },
     dev = false,
+    lazy = true,
     opts = {},
     dependencies = {
       -- for language features in code cells
@@ -17,6 +18,7 @@ return {
   { -- directly open ipynb files as quarto docuements
     -- and convert back behind the scenes
     "GCBallesteros/jupytext.nvim",
+    lazy = true,
     opts = {
       custom_language_formatting = {
         python = {
