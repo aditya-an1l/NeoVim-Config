@@ -29,7 +29,7 @@ vim.keymap.set("n", "<Space>e", function()
     source = "filesystem",
     position = "right",
   })
-end, { desc = "NeoTree" })
+end, { desc = "open NeoTree from the right" })
 
 vim.keymap.set("n", "<leader>d", '"_dd', { desc = "Delete without adding to buffer" })
 vim.keymap.set("n", " <leader>p", '"_dP', { desc = "Delete the selection WITHOUT resetting the buffer" })
