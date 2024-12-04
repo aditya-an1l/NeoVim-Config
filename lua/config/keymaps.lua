@@ -23,7 +23,7 @@ vim.keymap.set("n", "k", "kzz", { desc = "Cursor at the centre of the screen whi
 vim.keymap.set("n", "[<leader>", "O<Esc>j", { desc = "Insert Empty Line Above" })
 vim.keymap.set("n", "]<leader>", "o<Esc>k", { desc = "Insert Empty Line Above" })
 
-vim.keymap.set("n", "<A-h>", ":%:s/", { desc = "Search and Replace" })
+vim.keymap.set("n", "<A-h>", ":%:s/", { desc = "Search and Replace Shortcut" })
 
 vim.keymap.set("n", "<leader>e", function()
   require("neo-tree.command").execute({
