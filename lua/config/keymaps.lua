@@ -16,9 +16,9 @@ vim.keymap.set("n", "LKJ", "i", { desc = "Go to Insert Mode #1" })
 
 vim.keymap.set("n", "U", "<C-r>", { desc = "Redo" })
 
-vim.keymap.set("n", "j", "jzz", { desc = "Cursor at the centre of the screen while pressing j" })
+vim.keymap.set("n", "j", "jzz", { desc = "Cursor at the middle of the screen while pressing j" })
 
-vim.keymap.set("n", "k", "kzz", { desc = "Cursor at the centre of the screen while pressing k" })
+vim.keymap.set("n", "k", "kzz", { desc = "Cursor at the middle of the screen while pressing k" })
 
 vim.keymap.set("n", "[<leader>", "O<Esc>j", { desc = "Insert Empty Line Above" })
 vim.keymap.set("n", "]<leader>", "o<Esc>k", { desc = "Insert Empty Line Above" })
