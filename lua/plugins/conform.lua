@@ -22,6 +22,9 @@ return {
       stylua = {
         command = "C:\\Users\\nvim\\nvim-conform\\stylua.cmd",
       },
+      java = {
+        command = "C:\\Users\\nvim\\nvim-conform\\java.cmd",
+      },
 
       prettier = {
         command = "C:\\Users\\nvim\\nvim-conform\\prettier.cmd",
@@ -48,6 +51,9 @@ return {
 
       markdownlint = {
         command = "C:\\Users\\nvim\\nvim-conform\\markdownlint.cmd",
+      },
+      jdtls = {
+        command = "C:\\Users\\nvim\\nvim-conform\\jdtls.cmd",
       },
     },
   },
