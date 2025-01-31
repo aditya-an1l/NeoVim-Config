@@ -34,3 +34,11 @@ end, { desc = "open NeoTree from the right" })
 
 vim.keymap.set("n", "<leader>d", '"_dd', { desc = "Delete without adding to buffer" })
 vim.keymap.set("n", " <leader>p", '"_dP', { desc = "Delete the selection WITHOUT resetting the buffer" })
+
+-- Increase and decrease window height
+vim.keymap.set("n", "<C-Up>", "<cmd>resize +2<cr>", { desc = "Increase Window Height" })
+vim.keymap.set("n", "<C-Down>", "<cmd>resize -2<cr>", { desc = "Decrease Window Height" })
+
+-- Increase and decrease window width
+vim.keymap.set("n", "<C-Right>", "<cmd>vertical resize +2<cr>", { desc = "Increase Window Width" })
+vim.keymap.set("n", "<C-Left>", "<cmd>vertical resize -2<cr>", { desc = "Decrease Window Width" })
