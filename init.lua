@@ -6,3 +6,6 @@ require("nvim-treesitter.install").compilers = { "zig", "clang" }
 
 -- setting powershell inside of nvim
 vim.o.shell = "pwsh.exe"
+
+-- center the cursor
+vim.opt.scrolloff = 999
