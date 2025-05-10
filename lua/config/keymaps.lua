@@ -4,9 +4,7 @@
 
 vim.keymap.set("i", "<C-\\>", "<C-W>", { desc = "Delete previous word" })
 vim.keymap.set("n", "<C-\\>", "a<C-W><Esc>", { desc = "Delete previous word" })
-
 vim.keymap.set("n", "<C-a>", "ggVG", { desc = "Select all" })
-
 vim.keymap.set("i", "lkj", "<Esc>", { desc = "Go to Insert Mode #1" })
 vim.keymap.set("n", "lkj", "i", { desc = "Go to Insert Mode #1" })
 vim.keymap.set("i", "KJ", "<Esc>", { desc = "Go to Insert Mode #2" })
@@ -24,16 +22,8 @@ vim.keymap.set("n", "]<leader>", "o<Esc>k", { desc = "Insert Empty Line Below" }
 
 vim.keymap.set("n", "<A-h>", ":%:s/", { desc = "Search and Replace Shortcut" })
 
-vim.keymap.set("n", "<leader>e", function()
-  require("neo-tree.command").execute({
-    toggle = true,
-    source = "filesystem",
-    position = "right",
-  })
-end, { desc = "open NeoTree from the right" })
-
 vim.keymap.set("n", "<leader>d", '"_dd', { desc = "Delete without adding to buffer" })
-vim.keymap.set("n", " <leader>p", '"_dP', { desc = "Delete the selection WITHOUT resetting the buffer" })
+vim.keymap.set("n", "<leader>p", [["_dP]], { desc = "Paste without overwriting register" })
 
 vim.keymap.set("n", "<A-L>", "<C-w><lt><C-w><lt><C-w><lt>", { desc = "Decrease Window Width" })
 vim.keymap.set("n", "<A-H>", "<C-w>><C-w>><C-w>>", { desc = "Increase Window Width" })
