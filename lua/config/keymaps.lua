@@ -30,3 +30,6 @@ vim.keymap.set("n", "<A-H>", "<C-w>><C-w>><C-w>>", { desc = "Increase Window Wid
 
 vim.keymap.set("n", "<A-K>", "<C-w>-<C-w>-<C-w>-", { desc = "Decrease Window Width" })
 vim.keymap.set("n", "<A-J>", "<C-w>+<C-w>+<C-w>+", { desc = "Increase Window Width" })
+
+vim.keymap.set("n", "<leader>r", ":SnipRun<CR>", { desc = "Run the Code (SnipRun)" })
+vim.keymap.set("v", "<leader>r", ":'<,'>SnipRun<CR>", { desc = "Run the Code (SnipRun)" })
