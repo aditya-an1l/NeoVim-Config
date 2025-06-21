@@ -5,12 +5,17 @@
 vim.keymap.set("i", "<C-\\>", "<C-W>", { desc = "Delete previous word" })
 vim.keymap.set("n", "<C-\\>", "a<C-W><Esc>", { desc = "Delete previous word" })
 vim.keymap.set("n", "<C-a>", "ggVG", { desc = "Select all" })
+
 vim.keymap.set("i", "lkj", "<Esc>", { desc = "Go to Insert Mode #1" })
 vim.keymap.set("n", "lkj", "i", { desc = "Go to Insert Mode #1" })
 vim.keymap.set("i", "KJ", "<Esc>", { desc = "Go to Insert Mode #2" })
 vim.keymap.set("n", "KJ", "i", { desc = "Go to Insert Mode #2" })
-vim.keymap.set("i", "LKJ", "<Esc>", { desc = "Go to Insert Mode #1" })
-vim.keymap.set("n", "LKJ", "i", { desc = "Go to Insert Mode #1" })
+vim.keymap.set("i", "LKJ", "<Esc>", { desc = "Go to Insert Mode #3" })
+vim.keymap.set("n", "lkj", "i", { desc = "go to insert mode #3" })
+vim.keymap.set("i", "JJ", "<Esc>", { desc = "Go to Insert Mode #4" })
+vim.keymap.set("n", "JJ", "i", { desc = "go to insert mode #4" })
+vim.keymap.set("i", "KK", "<Esc>", { desc = "Go to Insert Mode #5" })
+vim.keymap.set("n", "KK", "i", { desc = "go to insert mode #5" })
 
 vim.keymap.set("n", "U", "<C-r>", { desc = "Redo" })
 
